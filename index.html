@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://th.bing.com/th/id/R.00d347675b30e8e32559bc170da6ea9c?rik=kcCcrccD%2bK8yjg&riu=http%3a%2f%2fhelloworlddesignco.com%2funiversal-blog-icon.png&ehk=CoPYsGywloUPWua2vp%2bofoBNLPJ93MKJB7yDSUt8KwQ%3d&risl=&pid=ImgRaw&r=0">
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Neucha&family=Quicksand:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <title>bststrp</title>
+    <style>
+        *{
+            font-family: 'quicksand', sans-serif;
+        }
+        .side-menu{
+            list-style: none;
+            padding: 15px;
+        }
+
+        h6{
+            margin-left: 20px;
+        }
+
+        .navbar-brand{
+            padding: 2px;
+
+        }
+
+        .membros{
+            border-radius: 50%;
+            
+        }
+
+        .faq{
+            margin: 10px;
+            height: 30px;
+            background-image: url(./img/background-green.jpg);
+        }
+
+        #strap{
+            margin-top: 20px;
+        }
+
+        #feature{
+            margin-top: 10px;
+
+        }
+
+        #redes i{
+            padding: 10px;
+        }
+
+        .mb-3{
+            margin-top: 15px;
+        }
+
+        #loginSpace{
+            margin-top: 10px;
+        }
+
+        #postagemDestaque{
+            margin-top: 30px;
+        }
+
+        #FAQ{
+            margin-top: 10px;
+            
+        }
+
+        .username{
+            display: flex;
+           
+        }
+
+        .username img{
+            margin: 5px;
+            border-radius: 50%;
+            
+        }
+
+        .username p{
+            margin: 5px;
+            font-size: 12px;
+           
+        }
+
+        #carouselAutomatico{
+            margin: 10px;
+        }
+
+        @media (max-width: 991.98px){
+            #total{
+                display: flex;
+                width: 1000px;
+            }
+
+            .col-3{
+                width: 40%;
+            }
+
+            .ultimas-postagens{
+                display: block;
+                width: 100%;
+            }
+
+            .list-group{
+                display: block;
+                width: 100%;
+            }
+
+            .username{
+                display: block;
+           
+            }
+
+            .username img{
+                margin: 5px;
+                border-radius: 50%;
+            
+            }
+
+            .username p{
+                margin: 5px;
+                font-size: 12px;
+           
+            }
+
+            .col-4{
+               width: 75%;
+            }
+            
+            #postagemDestaque{
+                
+                
+            }
+        }
+        
+        @media screen and (max-width: 575.98px) {
+            #total{
+                display: block;
+                width: 1028px;
+                justify-content: center;
+            }
+
+            .col-3{
+                width: 40%;
+            }
+
+            .ultimas-postagens{
+                justify-content: center;
+                display: block;
+                width: 100%;
+            }
+
+            .list-group{
+                display: block;
+                width: 100%;
+            }
+
+            .username{
+                display: block;
+           
+            }
+
+            .username img{
+                margin: 5px;
+                border-radius: 50%;
+            
+            }
+
+            .username p{
+                margin: 5px;
+                font-size: 12px;
+           
+            }
+
+            .col-4{
+                width: 40%;
+            }
+        }
+
+      
+    </style>
+</head>
+<body>
+    <div class="container text-start">
+        <div id="total" class="row align-items-start">
+          <div class="col-3">
+            <p style="color:white">coluna canto</p>
+            <nav class="navbar bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand">
+                        <i style="color:black" class="fa-regular fa-heart"></i>
+                        <i style="color:black" class="fa-solid fa-rotate"></i>
+                    </a>
+                    <div class="col">
+                        <div class="input-group input-group-sm">
+                            <input type="text" class="form-control" placeholder="bs-pratica.jpg">
+                            <span class="input-group-text" id="inputGroup-sizing-sm"><i class="fa-solid fa-magnifying-glass"></i></span>
+                            <button type="div" class="btn btn-dark btn-sm"><i class="fa-solid fa-earth-asia"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!--descrição e menu-->
+            <div id="caado">
+                <img src="./img/penguin-green.jpg" class="img-fluid img-thumbnail">
+                <h5>wi.io</h5>
+                <p style="font-size: 12px;">wo.io é um site de perguntas e respostas para programadores profissionais e 
+                    entusiastas. No site, os usuários podem fazer e responder perguntas sobre diversos tópicos relacionados 
+                    à programação.
+                </p>
+
+                <div class="menu">
+                    <h6>navegação</h6>
+                    <ul class="side-menu">
+                        <li>
+                            <a class="navbar-brand" href="">
+                            <i style="color:black" class="fa-solid fa-house"></i> home</a>
+                        </li>
+                        <li>
+                            <a class="navbar-brand" href="">
+                            <i style="color:black" class="fa-solid fa-image"></i> galeria</a>
+                        </li>
+                        <li>
+                            <a class="navbar-brand" href="">
+                            <i style="color:black" class="fa-solid fa-folder-open"></i> documentos</a>
+                        </li>
+                        <li>
+                            <a class="navbar-brand" href="">
+                            <i style="color:black" class="fa-regular fa-newspaper"></i> newssetler</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--descrição e menu-->
+          </div>
+
+
+
+          <div class="col-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <p style="color:white">coluna meio</p>
+
+                            <div class="ultimas-postagens">
+                                <h6><strong>discussões recentes</strong></h6>
+                                <div class="list-group">
+                                    <a href="#" class="list-group-item list-group-item-action">
+                                        <div class="username">
+                                            <img src="./img/user.png" style="width: 50px;" class="img-sm">
+                                            <p><strong>@user01: </strong>...migração para o Small Data, 
+                                            uso de gerentes digitais e crescimento do metaverso... </p> 
+                                        </div>  
+                                    </a>
+
+                                    <a href="#" class="list-group-item list-group-item-action">
+                                        <div class="username">
+                                            <img src="./img/user.png" style="width: 50px;" class="img-fluid">
+                                            <p><strong>@user02: </strong> ...com ela, é possível desenhar telas de aplicativos, 
+                                            montar landing pages, construir biblioteca de componentes...</p>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="list-group-item list-group-item-action">
+                                        <div class="username">
+                                            <img src="./img/user.png" style="width: 50px;" class="img-fluid">
+                                            <p><strong>@user03: </strong>algum especialista em sql pode me ajudar com isso?...</p>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div id="carouselAutomatico" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+                                  <div class="carousel-item active">
+                                    <img src="./img/penguin-green.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="./img/economia.jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="./img/flower (1).jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                  <div class="carousel-item">
+                                    <img src="./img/flower (1).jpg" class="d-block w-100" alt="...">
+                                  </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselAutomatico" data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon"></span>
+                                  <span class="visually-hidden">anterior</span>
+                                </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselAutomatico" data-bs-slide="next">
+                                  <span class="carousel-control-next-icon"></span>
+                                  <span class="visually-hidden">proximo</span>
+                                </button>
+                            </div>
+                    
+
+                            <div id="feature" class="card text-center">
+                                <div class="card-header">
+                                  post em alta
+                                </div>
+                                <div class="card-body">
+                                  <h5 class="card-title">o que houve com a ia?</h5>
+                                  <img cla="img-thumbnail" src="./img/user.png" style="width: 20%; border-radius: 50%;">
+                                  <p class="card-text" style="font-size:12px">
+                                    A inteligência artificial (IA) é uma tecnologia 
+                                    que viabiliza a capacidade de máquinas pensarem como seres humanos, 
+                                    desenvolvendo o dom de aprender, raciocinar, analisar e decidir 
+                                    logicamente sobre fatos, resolvendo problemas que, até então, 
+                                    só poderiam ser solucionados por humanos. A IA possibilita que máquinas
+                                    aprendam com experiências, se ajustem a novas entradas de dados e 
+                                    performem tarefas como seres humanos...</p>
+                                  <a href="#" class="btn btn-success">continuar leitura</a>
+                                </div>
+                                <div class="card-footer text-body-secondary">
+                                  há 2 dias, por @user10
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-4">
+                <div class="container text-start">
+                    <div class="row">
+                        <div class="col">
+                            <p style="color:white">coluna canto</p>
+                            <div id="redes" class="row">
+                                <div class="d-flex justify-content-end">
+                                    <i class="fa-brands fa-twitter"></i>
+                                    <i class="fa-brands fa-discord"></i>
+                                    <i class="fa-brands fa-github"></i>
+                                    <i class="fa-sharp fa-solid fa-folder-open"></i>
+                                </div>
+                            </div>
+                            
+                            <div class="container text-end">
+                                <div class="row align-items-end">
+                                    <div class="col">
+                                        <button type="button" class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#registroUser">registrar</button>
+                                        <div class="modal fade" id="registroUser" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h1 class="modal-title fs-5" id="modalR">faça parte da comunidade wi.io!</h1>
+                                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                                    </div>
+
+                                                    <div class="modal-body">
+                                                        <div class="container text-start">
+                                                            <form style="color:rgb(0, 0, 0); font-size: 15px;" class="needs-validation" novalidate>
+                                                                <div class="mb-3">
+                                                                    <label for="validationText" class="form-label">nome completo</label>
+                                                                    <input type="text" class="form-control" id="validationText" placeholder="seu nome" required>
+                                                                    <div class="valid-feedback">OK!</div>
+                                                                </div>
+
+                                                                <div class="mb-3">
+                                                                    <label for="file" class="form-label">foto de perfil</label>
+                                                                    <input type="file" class="form-control" id="foto-perfil">
+                                                                </div>
+
+                                                                <div class="mb-3">
+                                                                    <label for="validationUsername" class="form-label">username</label>
+                                                                    <input type="text" class="form-control" id="validationUsername" placeholder="@usernamelegal que vai ficar em display" required>
+                                                                    <div class="invalid-feedback">você precisa escolher um username!
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="mb-3">
+                                                                    <label for="validateEmail" class="form-label">email</label>
+                                                                    <input type="email" class="form-control" id="validationEmail" placeholder="exemplo@dominio.com" required>
+                                                                    <div class="invalid-feedback">você precisa escolher um username!
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="mb-3">
+                                                                    <label for="criarSenha" class="form-label">senha</label>
+                                                                    <input type="password" id="criarSenha" maxlength="8" placeholder="min 8 char" class="form-control">
+                                                                </div>
+
+                                                                <div class="mb-3">
+                                                                    <label for="tel" class="form-label">telefone</label>
+                                                                    <input type="tel" id="tel" placeholder="(DDD) xxxxx-xxxx" class="form-control">
+                                                                </div>
+
+                                                                <div class="mb-3 form-check">
+                                                                    <input type="checkbox" class="form-check-input" id="check-box">
+                                                                    <label class="form-check-label" for="check-box">receber atualizações via sms</label>
+                                                                </div>
+                                                                    
+                                                            </form>
+                                                        </div>
+                                                    </div>
+
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">voltar</button>
+                                                        <button class="btn btn-outline-success" type="submit">registrar</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    
+                                        <button class="btn btn-outline-dark" data-bs-toggle="collapse" data-bs-target="#espacoEntrar">entrar</button>
+                                        <div id="espacoEntrar" class="collapse collapse-horizontal text-white">
+                                           <div id="loginSpace" class="card">
+                                                <div class="card-body">
+                                                    <div class="mb-3">
+                                                        <label for="mainEmail" class="form-label">username</label>
+                                                        <input type="email" class="form-control-sm" id="mainEmail" placeholder="exemplo@domain.com">
+                                                    </div>
+                                                    
+                                                    <div class="mb-2">    
+                                                        <label for="senha" class="form-label">senha</label>
+                                                        <input type="password" maxlength="8" class="form-control-sm" id="senha" placeholder="********">
+                                                    </div>
+                                                    <button type="submit" class="btn btn-outline-dark mb-3">login</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>                                        
+                                </div>
+                            </div>
+
+                            
+                            <div id="postagemDestaque"class="card">
+                                <div class="card-body">
+                                    <h2><strong>WI.IO</strong></h2>
+                                    <p style="font-size: 12px;">
+                                    Todo o conteúdo do wi.io é gerenciado pela própria comunidade 
+                                    com um sistema de votação similar ao do Reddit: os usuários votam “para cima” 
+                                    ou “para baixo” nas perguntas e respostas, dando destaque, ou não, 
+                                    para os conteúdos mais relevantes!
+                                    </p>
+                                </div>
+                            </div>
+
+
+                            <div id="FAQ" class="container text-center">
+                                <h3><strong>FAQ</strong></h3>
+                            
+                                <div class="accordion accordion-flush" id="faqAccordion">
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse1">
+                                      como fazer parte da comunidade?
+                                    </button>
+                                  </h2>
+                                  <div id="faq-collapse1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">basta registrar-se e confirmar sua identidade usando um número de celular ou email!</div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq_collapse2">
+                                      como funciona o sistema de pontos?
+                                    </button>
+                                  </h2>
+                                  <div id="faq_collapse2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">o sistema de pontos avalia sua atividade na comunidade, quantos posts autorais você faz e com que frequencia;
+                                        comentários que você faz em posts da comunidade;
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="accordion-item">
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq-collapse3">
+                                      o que faz um post ficar em destaque?
+                                    </button>
+                                  </h2>
+                                  <div id="faq-collapse3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">Os posts em destaque são uma maneira de chamar a atenção dos usuários para um conteúdo específico. 
+                                        Sendo assim, 
+                                        <li>deve-se usar as tags corretas, que relamente descrevem seu conteúdo;</li> 
+                                        <li>você pode impulsionar seu post, instigando um q&a exclusivo para os membros discutindo seu tópico;</li>
+                                        <li>quanto mais interações o seu tópico tiver, mais provável é de ele ir para os destaques!</li></div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
